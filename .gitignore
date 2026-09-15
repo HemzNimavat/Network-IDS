@@ -1,0 +1,21 @@
+# Datasets (large files, should not be committed)
+data/
+*.csv
+cicids2017/
+
+# Model artifacts
+saved_model/*.pkl
+
+# Kaggle credentials - NEVER commit this
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
